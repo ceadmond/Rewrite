@@ -10,4 +10,4 @@ with open(filepath, "w") as fp:
         if "#" in line:
             print(line, file=fp)
         else:
-            print(line + ",reject", file=fp)
+            print(line + ",REJECT", file=fp)
