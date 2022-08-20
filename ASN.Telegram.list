@@ -11,7 +11,7 @@ DOMAIN-SUFFIX,telesco.pe,Telegram
 IP-CIDR,109.239.140.0/24,Telegram,no-resolve
 IP-CIDR,5.28.195.205/32,Telegram,no-resolve
 IP-CIDR,91.108.0.0/16,Telegram,no-resolve
-IP-CIDR6,2a0a:f280::/32,Telegram,no-resolve
+# IP-CIDR6,2a0a:f280::/32,Telegram,no-resolve
 IP-ASN,44907,Telegram,no-resolve
 IP-ASN,62041,Telegram,no-resolve
 IP-ASN,62014,Telegram,no-resolve
