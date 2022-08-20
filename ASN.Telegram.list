@@ -1,0 +1,19 @@
+# 🌐 ASN for Telegram Messenger Inc
+PROCESS-NAME,org.telegram.messenger,Telegram
+DOMAIN-SUFFIX,comments.app,Telegram // @CommentsBot
+DOMAIN-SUFFIX,t.me,Telegram
+DOMAIN-SUFFIX,tdesktop.com,Telegram
+DOMAIN-SUFFIX,telegra.ph,Telegram // Telegraph
+DOMAIN-SUFFIX,telegram.me,Telegram
+DOMAIN-SUFFIX,telegram.org,Telegram
+DOMAIN-SUFFIX,telegram-cdn.org,Telegram
+DOMAIN-SUFFIX,telesco.pe,Telegram // Telescope
+IP-CIDR,109.239.140.0/24,Telegram,no-resolve // Telegram Messenger LLP
+IP-CIDR,5.28.195.205/32,Telegram,no-resolve // IPFFM - Internet Provider Frankfurt GmbH
+IP-CIDR,91.108.0.0/16,Telegram,no-resolve // eTelecom_Customers_NAT_Network
+IP-CIDR6,2a0a:f280::/32,Telegram,no-resolve
+IP-ASN,44907,Telegram,no-resolve // Telegram Messenger Inc
+IP-ASN,62041,Telegram,no-resolve // Telegram Messenger Inc
+IP-ASN,62014,Telegram,no-resolve // Telegram Messenger Inc
+IP-ASN,59930,Telegram,no-resolve // Telegram Messenger Inc
+IP-ASN,211157,Telegram,no-resolve // Telegram Messenger Inc
