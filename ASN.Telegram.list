@@ -1,5 +1,5 @@
 # 🌐 ASN for Telegram Messenger Inc
-PROCESS-NAME,org.telegram.messenger,Telegram
+# PROCESS-NAME,org.telegram.messenger,Telegram
 DOMAIN-SUFFIX,comments.app,Telegram
 DOMAIN-SUFFIX,t.me,Telegram
 DOMAIN-SUFFIX,tdesktop.com,Telegram
