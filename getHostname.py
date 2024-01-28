@@ -4,9 +4,12 @@ def read_and_process_file(file_path, output_file):
         lines = file.readlines()
         for line in lines:
             if line.startswith("# hostname ="):
-                value = line.split("=")[1].strip()
-                result.append(value)
-    result = list(set(result))
+                temp = []
+                value = line.split("=")[1].strip().split(",")
+                for item in value:
+                    temp.append(item.strip())
+                for item in list(set(temp)):
+                    result.append(item)
     result_str = ", ".join(result)
     with open(output_file, "w") as out_file:
         out_file.write(result_str)
