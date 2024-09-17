@@ -1,0 +1,111 @@
+{
+  "description" : "倒入这个规则  配合surge  可以破 闪退的问题",
+  "name" : "surge crack",
+  "rules" : [
+    {
+      "action" : "deny",
+      "creationDate" : 1689213702.500731,
+      "direction" : "incoming",
+      "modificationDate" : 1689213702.500731,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-addresses" : "198.41.214.1"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1689213269.242831,
+      "modificationDate" : 1689213269.242831,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-addresses" : "17.253.114.125"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1689213276.7935619,
+      "modificationDate" : 1689213276.7935619,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-addresses" : "17.253.114.253"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1689213279.847913,
+      "modificationDate" : 1689213279.847913,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-addresses" : "17.253.84.123"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1689213278.65852,
+      "modificationDate" : 1689213278.65852,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-addresses" : "17.253.84.125"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1689213275.6419239,
+      "modificationDate" : 1689213275.6419239,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-addresses" : "17.253.84.251"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1689213351.265651,
+      "modificationDate" : 1689213351.265651,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-addresses" : "114.114.114.114"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1689213357.395349,
+      "modificationDate" : 1689213357.395349,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-addresses" : "223.5.5.5"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1689213613.061569,
+      "modificationDate" : 1689213649.9309149,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-domains" : "activation.surge.run"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1689213915.158155,
+      "modificationDate" : 1689213915.158155,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-domains" : "nssurge.com"
+    },
+    {
+      "action" : "deny",
+      "creationDate" : 1689214099.982017,
+      "modificationDate" : 1689214099.982017,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-domains" : "surge-activation.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1689213359.8384509,
+      "modificationDate" : 1689213359.8384509,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote-domains" : "aliyun.com"
+    },
+    {
+      "action" : "allow",
+      "creationDate" : 1689213413.438508,
+      "modificationDate" : 1689213413.438508,
+      "owner" : "me",
+      "process" : "\/Applications\/Surge.app\/Contents\/MacOS\/Surge",
+      "remote" : "any"
+    }
+  ]
+}
